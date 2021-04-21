@@ -2,13 +2,14 @@ public class test5{
   public static void main(String[] args){
 
 
-    for(int i = 1; i <= 5;i++){
-      System.out.print(i+" ");
-    }
-    System.out.println();
     
-    for(int i = 1; i <= 5;i++){
-      for(int j = 0: j <= 12)
+    int t = 0;
+    int j = 0;
+    for(int i = 1; i <= 99; i++){
+      t = i*i*i*i;
+      j = j+t;
+    System.out.println(j);
     }
+    
   }
 }
